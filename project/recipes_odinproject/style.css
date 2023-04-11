@@ -1,0 +1,22 @@
+body {
+    background-color: bisque;
+    color: darkgreen;
+} 
+img {
+    margin-left: 30%;
+    /* margin-right: 25%; */
+    width: 600px;
+    transform: rotate(90deg);
+}
+h1, h4, p{
+    text-align: center;
+}
+ul > li {
+    text-align: center;
+    color: darkblue;
+    list-style-type: none;
+    background: whitesmoke;
+}
+a:link {
+    text-decoration: none;
+}
