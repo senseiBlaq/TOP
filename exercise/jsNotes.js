@@ -35,3 +35,18 @@ const two = "how are you?";
 const joined = `${one}${two}`;
 console.log(joined); // "Hello, how are you?"
 //string methods - 
+
+function extract (sample) { // function that takes initialised the first letter on the string
+    return `${sample[0].toUpperCase()}${sample.substr(1, sample.length)}`
+}
+
+console.log(extract("sample"))
+function lastLetter (sample){// extracts tghe lst letter of a string
+    return sample.substr(-1,1)} console.log(lastLetter("sample"))
+
+// template for anonymous and arrow function  
+(function (parameter) {
+   return  //do something
+});
+
+((parameter) => {});
